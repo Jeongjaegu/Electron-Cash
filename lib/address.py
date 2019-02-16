@@ -184,21 +184,6 @@ class OpCodes(IntEnum):
     OP_CHECKDATASIG = 0xba
     OP_CHECKDATASIGVERIFY = 0xbb
 
-    # The first op_code value after all defined opcodes
-    FIRST_UNDEFINED_OP_VALUE = 0xbc
-
-    # multi-byte opcodes
-    OP_PREFIX_BEGIN = 0xf0
-    OP_PREFIX_END = 0xf7
-
-    # template matching params
-    OP_SMALLINTEGER = 0xfa
-    OP_PUBKEYS = 0xfb
-    OP_PUBKEYHASH = 0xfd
-    OP_PUBKEY = 0xfe
-
-    OP_INVALIDOPCODE = 0xff
-
 
 # Utility functions
 
